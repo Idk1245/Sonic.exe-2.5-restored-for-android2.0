@@ -2442,7 +2442,7 @@ class PlayState extends MusicBeatState
 					camHUD.alpha = 0;
 					startCountdown();
 
-				case 'too-slow' | 'you-cant-run' | 'triple-trouble' | 'endless' | 'endless-encore' | 'cycles' | 'prey' | 'fight-or-flight'| 'round-a-bout' | 'b4cksl4sh' | 'perdition':
+				case 'too-slow' | 'you-cant-run' | 'triple-trouble' | 'endless' | 'endless-encore' | 'cycles' | 'prey' | 'fight-or-flight' | 'round-a-bout' | 'b4cksl4sh' | 'perdition':
 
 					if (daSong == 'too-slow' || daSong == 'you-cant-run' || daSong == 'cycles')
 						{
@@ -2492,7 +2492,7 @@ class PlayState extends MusicBeatState
 							}
 						});
 					});
-
+				     
 			      case  'my-horizon':
 				        add(blackFuck);
 				        startCircle.loadGraphic(Paths.image('StartScreens/my-horizon_title_card', 'exe'));
