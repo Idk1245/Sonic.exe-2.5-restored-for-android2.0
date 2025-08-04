@@ -47,6 +47,7 @@ jobs:
           haxe -cp ./setup -D analyzer-optimize -main Main --interp
           haxelib run lime rebuild hxcpp
           haxelib install hxcpp-debug-server
+          haxelib install linc_luajit
           haxelib list
 
       - name: Configure Android
