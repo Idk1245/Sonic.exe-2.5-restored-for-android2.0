@@ -3,62 +3,8 @@
 		{
 			"loop": false,
 			"offsets": [
-				62,
-				-263
-			],
-			"anim": "laugh",
-			"fps": 24,
-			"name": "Beast_LAUGH",
-			"indices": [
-				0,
-				1,
-				2,
-				3,
-				4,
-				5,
-				6,
-				7,
-				8,
-				9,
-				10,
-				11,
-				12,
-				13,
-				14,
-				15
-			]
-		},
-		{
-			"loop": false,
-			"offsets": [
-				84,
-				-50
-			],
-			"anim": "idle",
-			"fps": 24,
-			"name": "Knux Idle",
-			"indices": [
-				0,
-				1,
-				2,
-				3,
-				4,
-				5,
-				6,
-				7,
-				8,
-				9,
-				10,
-				11,
-				12,
-				13
-			]
-		},
-		{
-			"loop": false,
-			"offsets": [
-				67,
-				-1
+				454,
+				165
 			],
 			"anim": "singUP",
 			"fps": 24,
@@ -85,8 +31,8 @@
 		{
 			"loop": false,
 			"offsets": [
-				130,
-				-151
+				454,
+				165
 			],
 			"anim": "singDOWN",
 			"fps": 24,
@@ -112,9 +58,12 @@
 		},
 		{
 			"offsets": [
-				267,
-				-120
+				454,
+				155
 			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
 			"indices": [
 				0,
 				1,
@@ -133,16 +82,16 @@
 				14,
 				15
 			],
-			"fps": 24,
-			"anim": "singLEFT",
-			"loop": false,
 			"name": "Knux Right"
 		},
 		{
 			"offsets": [
-				54,
-				-119
+				454,
+				155
 			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
 			"indices": [
 				0,
 				1,
@@ -161,12 +110,36 @@
 				14,
 				15
 			],
-			"fps": 24,
-			"anim": "singRIGHT",
-			"loop": false,
 			"name": "Knux Left"
+		},
+		{
+			"offsets": [
+				454,
+				155
+			],
+			"indices": [
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13
+			],
+			"fps": 20,
+			"anim": "idle",
+			"loop": false,
+			"name": "Knux Idle"
 		}
 	],
+	"vocals_file": "",
 	"no_antialiasing": false,
 	"image": "characters/KnucklesEXE",
 	"position": [
@@ -181,9 +154,10 @@
 		0
 	],
 	"camera_position": [
-		-510,
-		200
+		-700,
+		-90
 	],
 	"sing_duration": 4,
-	"scale": 1.05
+	"scale": 1.05,
+	"_editor_isPlayer": false
 }

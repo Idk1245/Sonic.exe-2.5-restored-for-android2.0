@@ -1,189 +1,80 @@
 {
 	"animations": [
 		{
-			"loop": false,
 			"offsets": [
-				62,
-				-263
+				115,
+				-160
 			],
-			"anim": "laugh",
+			"loop": false,
 			"fps": 24,
-			"name": "Beast_LAUGH",
-			"indices": [
-				0,
-				1,
-				2,
-				3,
-				4,
-				5,
-				6,
-				7,
-				8,
-				9,
-				10,
-				11,
-				12,
-				13,
-				14,
-				15
-			]
-		},
-		{
-			"loop": false,
-			"offsets": [
-				84,
-				-50
-			],
-			"anim": "idle",
-			"fps": 24,
-			"name": "Tails IDLE",
-			"indices": [
-				0,
-				1,
-				2,
-				3,
-				4,
-				5,
-				6,
-				7,
-				8,
-				9,
-				10,
-				11,
-				12,
-				13
-			]
-		},
-		{
-			"loop": false,
-			"offsets": [
-				108,
-				-5
-			],
-			"anim": "singUP",
-			"fps": 24,
-			"name": "Tails UP",
-			"indices": [
-				0,
-				1,
-				2,
-				3,
-				4,
-				5,
-				6,
-				7,
-				8,
-				9,
-				10,
-				11,
-				12,
-				13,
-				14,
-				15
-			]
-		},
-		{
-			"loop": false,
-			"offsets": [
-				148,
-				-67
-			],
 			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Tails Soul Right"
+		},
+		{
+			"offsets": [
+				156,
+				-64
+			],
+			"loop": false,
 			"fps": 24,
-			"name": "Tails RIGHT",
-			"indices": [
-				0,
-				1,
-				2,
-				3,
-				4,
-				5,
-				6,
-				7,
-				8,
-				9,
-				10,
-				11,
-				12,
-				13,
-				14,
-				15
-			]
+			"anim": "singUP",
+			"indices": [],
+			"name": "Tails Soul Up"
 		},
 		{
 			"loop": false,
 			"offsets": [
-				167,
-				-108
+				130,
+				-195
 			],
 			"anim": "singDOWN",
 			"fps": 24,
-			"name": "Tails DOWN",
-			"indices": [
-				0,
-				1,
-				2,
-				3,
-				4,
-				5,
-				6,
-				7,
-				8,
-				9,
-				10,
-				11,
-				12,
-				13,
-				14,
-				15
-			]
+			"name": "Tails Soul Down",
+			"indices": []
+		},
+		{
+			"offsets": [
+				218,
+				-227
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Tails Soul Left"
 		},
 		{
 			"loop": false,
 			"offsets": [
-				224,
-				-64
+				115,
+				-157
 			],
-			"anim": "singLEFT",
+			"anim": "idle",
 			"fps": 24,
-			"name": "Tails LEFT",
-			"indices": [
-				0,
-				1,
-				2,
-				3,
-				4,
-				5,
-				6,
-				7,
-				8,
-				9,
-				10,
-				11,
-				12,
-				13,
-				14,
-				15
-			]
+			"name": "Tails Soul Idle",
+			"indices": []
 		}
 	],
+	"vocals_file": "",
 	"no_antialiasing": false,
 	"image": "characters/Tails",
 	"position": [
-		60,
-		110
+		350,
+		50
 	],
 	"healthicon": "tails",
 	"flip_x": false,
 	"healthbar_colors": [
-		115,
-		115,
-		115
+		41,
+		40,
+		46
 	],
 	"camera_position": [
-		-140,
-		60
+		-150,
+		180
 	],
-	"sing_duration": 4,
-	"scale": 1.15
+	"sing_duration": 6.1,
+	"scale": 1.2,
+	"_editor_isPlayer": false
 }
