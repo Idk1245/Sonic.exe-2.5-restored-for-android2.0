@@ -2,8 +2,8 @@
 	"animations": [
 		{
 			"offsets": [
-				0,
-				-40
+				-10,
+				-57
 			],
 			"loop": false,
 			"fps": 24,
@@ -13,8 +13,8 @@
 		},
 		{
 			"offsets": [
-				34,
-				31
+				38,
+				5
 			],
 			"loop": false,
 			"fps": 24,
@@ -24,8 +24,8 @@
 		},
 		{
 			"offsets": [
-				-90,
-				-16
+				-100,
+				-60
 			],
 			"loop": false,
 			"fps": 24,
@@ -46,8 +46,8 @@
 		},
 		{
 			"offsets": [
-				20,
-				-160
+				18,
+				-94
 			],
 			"loop": false,
 			"fps": 24,
@@ -58,31 +58,53 @@
 		{
 			"offsets": [
 				110,
-				-63
+				-34
 			],
 			"loop": false,
 			"fps": 24,
 			"anim": "singLEFT",
 			"indices": [],
 			"name": "SONICmoveLEFT"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				88,
+				-33
+			],
+			"anim": "gotyou",
+			"fps": 24,
+			"name": "sonicImmagetya",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-5,
+				64
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUP-alt",
+			"loop": false,
+			"name": "Upalt"
 		}
 	],
 	"no_antialiasing": false,
-	"image": "characters/sonicexe",
+	"image": "characters/grimbo",
 	"position": [
-		0,
-		0
+		30,
+		30
 	],
 	"healthicon": "sonicexe",
 	"flip_x": false,
 	"healthbar_colors": [
 		0,
-		85,
-		142
+		88,
+		183
 	],
 	"camera_position": [
-		-10,
-		110
+		100,
+		130
 	],
 	"sing_duration": 4,
 	"scale": 1
